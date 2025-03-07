@@ -52,8 +52,8 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-black text-white">
-      <Card className="w-full max-w-md h-screen mx-auto bg-[#111111] border-none shadow-2xl flex flex-col">
+    <div className="min-h-screen text-white">
+      <Card className="w-full lg:max-w-md h-screen bg-[#111111] rounded-none border-none shadow-2xl flex flex-col">
         {/* Header */}
         <div className="flex items-center gap-3 p-4 border-b border-zinc-800">
           <Button variant="ghost" size="icon" className="hover:bg-zinc-800">
